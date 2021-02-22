@@ -10,8 +10,6 @@ const resolvers = {
   Mutation,
   Subscription,
   User,
-  Post,
-  Comment,
 };
 
 const fragmentReplacements = extractFragmentReplacements(resolvers);
