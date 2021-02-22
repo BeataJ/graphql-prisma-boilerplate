@@ -18,8 +18,9 @@ type Mutation {
   loginUser(data: LoginUserInput!): AuthPayLoad!
 }
 
-type Subscription {
-}
+# type Subscription {
+
+# }
 
 type AuthPayLoad {
   token: String!
